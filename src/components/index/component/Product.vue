@@ -27,7 +27,7 @@ section.product
             .ctrl(:class="i.open ? 'on' : ''")
               span.vertical
               span.horizontal
-          .content(:style="{ height: i.height +'px', }")
+          .content(:style="{ height: i.height +'px'}")
             ul(ref="productContent")
               li(v-for="d in i.items") {{ d }}
 
