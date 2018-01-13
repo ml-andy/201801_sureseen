@@ -1,6 +1,6 @@
-# sureseen
+# web
 
-> sureseen official website
+> customer journey
 
 ## Build Setup
 
