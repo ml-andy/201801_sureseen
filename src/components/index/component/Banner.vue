@@ -30,10 +30,10 @@ export default {
   },
   mounted() {
     this.mySwiper = new Swiper('.swiper-container', {
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
+      // autoplay: {
+      //   delay: 3000,
+      //   disableOnInteraction: false,
+      // },
       loop: true,
       pagination: {
         el: '.swiper-pagination',
@@ -125,9 +125,118 @@ $vph:1080;
 }
 
 //mobile
-$vpw:600;
+$vpw:768;
 $vph:1200;
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1199px) {
+.banner{
+  @include r;
+  height: getVW(815);
+  margin-top: getVW(160);
+  overflow: hidden;
 
+  .photo{
+    width: 100%;
+    height: getVW(768);
+    overflow: hidden;
+
+    img{
+      @include alt(auto,100%,50%);
+      transform: translateX(-50%);
+      z-index: 0;
+    }
+  }
+
+  .text{
+    @include alt(auto,auto,50%,50%);
+    z-index: 9;
+    
+    .ch{
+      @include fontvw(22,50,#fff);
+      letter-spacing: getVW(4);
+      margin-bottom: getVW(10);
+    }
+
+    .en{
+      @include fontvw(14,24,#fff);
+      letter-spacing: getVW(6);
+      font-family: 'Myriad Pro';
+    }
+  }
+  
+  .photo0{
+    .text{
+      margin-top: getVW(-330);
+      margin-left: getVW(-208);
+    }
+
+    img{
+      margin-left: getVW(-150);
+    }
+  }
+
+  .photo1{
+    .text{
+      margin-top: getVW(-310);
+      margin-left: getVW(85);
+    }
+
+    img{
+      margin-left: getVW(-50);
+    }
+  }
+
+  .photo2{
+    .text{
+      margin-top: getVW(-320);
+      margin-left: getVW(70);
+    }
+
+    img{
+      margin-left: getVW(-70);
+    }
+  }
+
+  .photo3{
+    .text{
+      margin-top: getVW(-300);
+      margin-left: getVW(80);
+    }
+
+    img{
+      margin-left: getVW(-100);
+    }
+  }
+
+  .photo4{
+    .text{
+      margin-top: getVW(-315);
+      margin-left: getVW(-300);
+    }
+
+    img{
+      margin-left: getVW(-50);
+    }
+  }
+
+  .photo5{
+    .text{
+      margin-top: getVW(-345);
+      margin-left: getVW(-230);
+
+      .ch, .en{ color: #494949; }
+    }
+
+    img{
+      margin-left: getVW(20);
+    }
+  }
+
+  .swiper-pagination{
+    width: auto;
+    text-align: right;
+    bottom: 0;
+    right: getVW(50);
+  }
+}
 }
 </style>

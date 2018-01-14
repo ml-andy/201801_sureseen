@@ -386,7 +386,7 @@
     @return auto;
   }
   @else{
-    @if $vpw > 600 {
+    @if $vpw > 1200 {
       @return $aa * 1px;
     }
     @else{

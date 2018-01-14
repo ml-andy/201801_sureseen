@@ -136,9 +136,81 @@ section.company{
 }
 
 //mobile
-$vpw:600;
+$vpw:768;
 $vph:1200;
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1199px) {
+section.company{
+  @include r;
+  
+  h1{
+    @include r;
+    @include fontvw(42,42,#006f37,bolder);
+    margin-bottom: getVW(30);
+    font-family: 'Arial';
+    box-sizing: border-box;
+    padding: 0 getVW(100);
+  }
 
+  h2{
+    @include r;
+    @include fontvw(24,24,#5c5c5c);
+    margin-bottom: getVW(30);
+    letter-spacing: getVW(2);
+    box-sizing: border-box;
+    padding: 0 getVW(100);
+  }
+
+  .stores{
+    @include r;
+    box-sizing: border-box;
+    padding: 0 getVW(30);
+    padding-bottom: getVW(250);
+
+    .welcome{
+      @include alb(auto,auto);
+      @include fontvw(16,36,#5c5c5c);
+      top: auto;
+      letter-spacing: getVW(4);
+      right: auto;
+      left: getVW(430);
+      bottom: getVW(90);
+      font-family: 'Myriad Pro';
+      z-index: 1;
+    }
+
+    .store{
+      @include r(49%);
+      margin-right: 0;
+      min-height: getVW(400);
+      margin-bottom: getVW(80);
+
+      &:nth-child(2n){ margin-right: 2%; }
+
+      iframe{
+        @include r;
+        height: getVW(250);
+        margin-bottom: getVW(36);
+        box-sizing: border-box;
+        border: 1px solid #d6d6d6;
+      }
+
+      .title{
+        @include r;
+        @include fontvw(22,22,#5c5c5c);
+        letter-spacing: getVW(2);
+        margin-bottom: getVW(24);
+        box-sizing: border-box;
+        padding-left: getVW(40);
+      }
+
+      .addr, .tel, .fax, .email{
+        @include r;
+        @include fontvw(14,24,#5c5c5c);
+        box-sizing: border-box;
+        padding-left: getVW(40);
+      }
+    }
+  }
+}
 }
 </style>

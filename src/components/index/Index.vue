@@ -49,9 +49,11 @@ $vph:1080;
 }
 
 //mobile
-$vpw:600;
+$vpw:768;
 $vph:1200;
-@media screen and (max-width: 600px) {
-
+@media screen and (max-width: 1199px) {
+.wrapper{
+  @include r;
+}
 }
 </style>

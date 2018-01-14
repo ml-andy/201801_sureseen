@@ -108,4 +108,43 @@ html{-webkit-text-size-adjust: 100%;}
     }
   }
 }
+
+//mobile
+$vpw:768;
+$vph:1200;
+@media screen and (max-width: 1199px) {
+#app {
+  position: relative;
+  width: 100%;
+  height: auto;
+  float: left;
+  background-color: #f1f1f1;
+
+  .btn_gotop {
+    @include frbvw(42,42,6,20);
+    left: auto;
+    top: auto;
+    margin-left: 0;
+    background-image: url(assets/btn_gotop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    z-index: 99;
+    cursor: pointer;
+  }
+
+  .main{
+    @include r;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+
+    .content{
+      @include r;
+      background-color: #fff;
+    }
+  }
+}
+}
 </style>
