@@ -121,7 +121,7 @@ $vph:1200;
   background-color: #f1f1f1;
 
   .btn_gotop {
-    @include frbvw(42,42,6,20);
+    @include frbvw(80,80,30,30);
     left: auto;
     top: auto;
     margin-left: 0;

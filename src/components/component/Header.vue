@@ -201,14 +201,14 @@ header{
 
       .name{
         @include r;
-        @include fontvw(22,22,#5c5c5c);
+        @include fontvw(37,37,#5c5c5c);
         letter-spacing: getVW(4);
         margin-bottom: getVW(15);
       }
 
       .eng{
         @include r;
-        @include fontvw(14,14,#5c5c5c);
+        @include fontvw(30,30,#5c5c5c);
         letter-spacing: getVW(2);
       }
     }
@@ -218,7 +218,7 @@ header{
     @include arbvw(auto,auto,18,30);
 
     a{
-      @include fontvw(16,16,#646464);
+      @include fontvw(30,30,#646464);
       font-family: '微軟正黑體';
       position: relative;
       display: inline-block;
@@ -226,7 +226,7 @@ header{
     }
 
     span{
-      @include fontvw(16,16,#646464);
+      @include fontvw(30,30,#646464);
       font-family: '微軟正黑體';
       position: relative;
       display: inline-block;

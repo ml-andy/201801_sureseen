@@ -166,19 +166,19 @@ footer{
   .unit{
     @include r;
     width: getVW(215);
-    margin-right: getVW(60);
+    margin-right: getVW(30);
 
     &:nth-child(2){
-      width: getVW(430);
+      width: getVW(460);
       margin-right: 0;
     }
 
     .title{
       @include r;
-      @include fontvw(16,16,#d9d9d9);
+      @include fontvw(37,37,#d9d9d9);
       box-sizing: border-box;
       padding-bottom: getVW(10);
-      border-bottom: 2px solid #fff;
+      border-bottom: getVW(2) solid #fff;
       margin-bottom: getVW(18);
     }
 
@@ -187,7 +187,7 @@ footer{
 
       li{
         @include r;
-        @include fontvw(14,24,#afafaf);
+        @include fontvw(30,50,#afafaf);
 
         &.bt{ cursor: pointer; }
       }
@@ -222,11 +222,11 @@ footer{
 
   .copyright{
     @include r;
-    @include fontvw(14,14,#c5c5c5);
-    text-align: right;
+    @include fontvw(30,30,#c5c5c5);
+    text-align: left;
     letter-spacing: getVW(1);
     box-sizing: border-box;
-    padding-right: getVW(290);
+    padding-left: getVW(245);
     margin-top: getVW(165);
     margin-bottom: getVW(60);
   }

@@ -144,7 +144,7 @@ section.company{
   
   h1{
     @include r;
-    @include fontvw(42,42,#006f37,bolder);
+    @include fontvw(50,50,#006f37,bolder);
     margin-bottom: getVW(30);
     font-family: 'Arial';
     box-sizing: border-box;
@@ -153,7 +153,7 @@ section.company{
 
   h2{
     @include r;
-    @include fontvw(24,24,#5c5c5c);
+    @include fontvw(37,50,#5c5c5c);
     margin-bottom: getVW(30);
     letter-spacing: getVW(2);
     box-sizing: border-box;
@@ -168,7 +168,7 @@ section.company{
 
     .welcome{
       @include alb(auto,auto);
-      @include fontvw(16,36,#5c5c5c);
+      @include fontvw(30,50,#5c5c5c);
       top: auto;
       letter-spacing: getVW(4);
       right: auto;
@@ -179,16 +179,16 @@ section.company{
     }
 
     .store{
-      @include r(49%);
+      @include r(100%);
       margin-right: 0;
       min-height: getVW(400);
       margin-bottom: getVW(80);
 
-      &:nth-child(2n){ margin-right: 2%; }
+      &:nth-child(2n){ margin-right: 0%; }
 
       iframe{
         @include r;
-        height: getVW(250);
+        height: getVW(350);
         margin-bottom: getVW(36);
         box-sizing: border-box;
         border: 1px solid #d6d6d6;
@@ -196,7 +196,7 @@ section.company{
 
       .title{
         @include r;
-        @include fontvw(22,22,#5c5c5c);
+        @include fontvw(37,50,#5c5c5c);
         letter-spacing: getVW(2);
         margin-bottom: getVW(24);
         box-sizing: border-box;
@@ -205,7 +205,7 @@ section.company{
 
       .addr, .tel, .fax, .email{
         @include r;
-        @include fontvw(14,24,#5c5c5c);
+        @include fontvw(30,50,#5c5c5c);
         box-sizing: border-box;
         padding-left: getVW(40);
       }

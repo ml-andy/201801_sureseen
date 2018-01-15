@@ -259,14 +259,14 @@ section.product{
   
   h1{
     @include r;
-    @include fontvw(42,42,#006f37,bolder);
+    @include fontvw(50,50,#006f37,bolder);
     margin-bottom: getVW(30);
     font-family: 'Arial';
   }
 
   h2{
     @include r;
-    @include fontvw(24,24,#5c5c5c);
+    @include fontvw(37,50,#5c5c5c);
     margin-bottom: getVW(30);
     letter-spacing: getVW(2);
   }
@@ -288,7 +288,7 @@ section.product{
 
     .left-side{
       @include altvw(40,100);
-      @include fontvw(28,28,#006f37,bolder);
+      @include fontvw(37,50,#006f37,bolder);
       font-family: 'Arial';
       z-index: 1;
     }
@@ -302,7 +302,7 @@ section.product{
         @include r;
         
         .ch{
-          @include fontvw(19,28,#5c5c5c);
+          @include fontvw(37,50,#5c5c5c);
           letter-spacing: getVW(2);
           display: inline-block;
           vertical-align: top;
@@ -310,7 +310,7 @@ section.product{
         }
 
         .en{
-          @include fontvw(14,14,#5c5c5c);
+          @include fontvw(30,30,#5c5c5c);
           font-family: 'Myriad Pro';
           letter-spacing: getVW(2);
           display: inline-block;
@@ -327,12 +327,13 @@ section.product{
         &:after{
           content: "";
           @include alt(100%,3px);
+          height: getVW(3);
           background-color: #006f37;
         }
 
         .item{
           @include r(33%);
-          @include fontvw(16,16,#5c5c5c);
+          @include fontvw(30,30,#5c5c5c);
           margin-bottom: getVW(20);
         }
       }
@@ -342,15 +343,15 @@ section.product{
         margin-top: getVW(30);
 
         .product{
-          @include r(48%);
-          margin-right: 4%;
+          @include r(100%);
+          margin-right: 0%;
           margin-bottom: getVW(40);
 
           &:nth-child(2n){ margin-right: 0; }
 
           .name{
             @include r;
-            @include fontvw(16,16,#5c5c5c);
+            @include fontvw(30,30,#5c5c5c);
             letter-spacing: getVW(2);
             padding-bottom: getVW(10);
             cursor: pointer;
@@ -358,6 +359,7 @@ section.product{
             &:after{
               content: "";
               @include alb(100%,3px);
+              height: getVW(3);
               background-color: #006f37;
             }
 
@@ -380,13 +382,13 @@ section.product{
               }
 
               .vertical{
-                @include art(3px,10px,16px,5px);
+                @include artvw(3,10,16,5);
                 background-color: #006f37;
                 transition: 0.3s;
               }
 
               .horizontal{
-                @include art(10px,3px,12px,9px);
+                @include artvw(10,3,12,9);
                 background-color: #006f37;
               }
             }
@@ -410,7 +412,7 @@ section.product{
 
               li{
                 @include r;
-                @include fontvw(14,28,#fff);;
+                @include fontvw(30,50,#fff);;
                 box-sizing: border-box;
                 padding-left: getVW(30);
               }

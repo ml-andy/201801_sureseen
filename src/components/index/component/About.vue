@@ -288,14 +288,14 @@ $vph:1200;
 
     h1{
       @include r;
-      @include fontvw(42,42,#006f37,bolder);
+      @include fontvw(50,50,#006f37,bolder);
       font-family: 'Arial';
       margin-bottom: getVW(40);
     }
 
     h2{
       @include r;
-      @include fontvw(20,38,#5c5c5c);
+      @include fontvw(37,50,#5c5c5c);
       margin-bottom: getVW(20);
     }
 
@@ -330,7 +330,7 @@ $vph:1200;
 
     p{
       @include r;
-      @include fontvw(14,24,#5c5c5c);
+      @include fontvw(30,50,#5c5c5c);
       text-align: justify;
     }
   }
@@ -346,8 +346,8 @@ $vph:1200;
       margin-top: getVW(70);
 
       .feature{
-        @include r(49%);
-        margin-right: 2%;
+        @include r(100%);
+        margin-right: 0%;
         margin-bottom: getVW(55);
 
         &:nth-child(2n){
@@ -370,7 +370,7 @@ $vph:1200;
 
         h1{
           @include r;
-          @include fontvw(19,19,#5c5c5c);
+          @include fontvw(37,37,#5c5c5c);
           box-sizing: border-box;
           padding: 0;
           padding-bottom: getVW(10);
@@ -389,12 +389,13 @@ $vph:1200;
 
         .des{
           @include r;
-          @include fontvw(14,24,#5c5c5c);
+          @include fontvw(30,50,#5c5c5c);
           min-height: getVW(100);
           text-align: center;
+          margin-bottom: getVW(30);
 
           .number{
-            @include fontvw(33,33,#006f37,bolder);
+            @include fontvw(37,37,#006f37,bolder);
             font-family: 'Arial';
             display: inline-block;
             vertical-align: top;
