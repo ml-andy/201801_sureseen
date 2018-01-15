@@ -142,6 +142,10 @@ export default {
       mainPlayer: null,
       showVdCover: true,
       alreadyStart: false,
+      videoId: {
+        chinese: 'idKh-rc0Zz8',
+        english: 'qLQ61cv_C_4',
+      },
     };
   },
   computed: {
@@ -161,10 +165,10 @@ export default {
         {
           height: '100%',
           width: '100%',
-          videoId: 'idKh-rc0Zz8',
+          videoId: this.videoId.chinese,
           playerVars: {
             controls: 0,
-            autoplay: false,
+            autoplay: 0,
             enablejsapi: 0,
             rel: 0,
             showinfo: 0,
@@ -184,6 +188,19 @@ export default {
     vdStateChange(event) {
       if (event.data !== 1) this.showVdCover = true;
       else this.showVdCover = false;
+    },
+  },
+  watch: {
+    language: {
+      handler(e) {
+        Object.keys(e).forEach((key) => {
+          if (this.language[key]) {
+            this.mainPlayer.loadVideoById(this.videoId[key]);
+            this.mainPlayer.stopVideo();
+          }
+        });
+      },
+      deep: true,
     },
   },
 };
