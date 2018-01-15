@@ -31,7 +31,7 @@ section.company
       .tel 電話：04-25660476(代表號)
       .fax 傳真：04-25660478
     .store
-      |<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.013428310212!2d120.42656911550753!3d22.578601085179784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e1c1b465eb2d5%3A0xf688ced638bc55d5!2zODMx6auY6ZuE5biC5aSn5a-u5Y2A6I-v5Lit6LevMjHomZ8!5e0!3m2!1szh-TW!2stw!4v1515825247678" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      |<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1095.2607690275072!2d120.42751545382714!3d22.57897549588028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e1c06a32d3cbd%3A0xb9b315a0b1ed79ef!2z5qi55qyj5LyB5qWt6IKh5Lu95pyJ6ZmQ5YWs5Y-4!5e0!3m2!1szh-TW!2stw!4v1516020241066" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       .title 高雄分公司
       .addr 高雄市大寮區華中路21號
       .tel 電話：07-7875060(代表號)
