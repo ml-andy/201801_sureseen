@@ -1,8 +1,10 @@
 <template lang="pug">
 section.product
   h1 Product
-  h2 
+  h2(v-if="language.chinese")
     |產品種類豐富，為您嚴格把關每個細節
+  h2(v-else-if="language.english")
+    |Broad product selection, strictly screening every detail for you
   .photo
     img(src="../../../assets/product_photo0.jpg")
   .unit
@@ -11,8 +13,10 @@ section.product
       .title
         .ch 營業項目
         .en Business Project
-      .items
+      .items(v-if="language.chinese")
         .item(v-for="i in items") {{ i }}
+      .items(v-else-if="language.english")
+        .item(v-for="i in itemsEng") {{ i }}
   .unit
     .left-side B
     .right-side
@@ -21,15 +25,31 @@ section.product
         .en Product List
       .produts
         .product(v-for="(i,idx) in products")
-          .name(@click="openProduct(idx)")
+          .name(
+            v-if="language.chinese"
+            @click="openProduct(idx)")
             span.number {{ idx + 1 < 10 ? '0' + (idx + 1) : idx + 1}}
             |{{ i.name }}
             .ctrl(:class="i.open ? 'on' : ''")
               span.vertical
               span.horizontal
+          .name(
+            v-else-if="language.english"
+            @click="openProduct(idx)")
+            span.number {{ idx + 1 < 10 ? '0' + (idx + 1) : idx + 1}}
+            |{{ i.nameEng }}
+            .ctrl(:class="i.open ? 'on' : ''")
+              span.vertical
+              span.horizontal
           .content(:style="{ height: i.height +'px'}")
-            ul(ref="productContent")
+            ul(
+              v-if="language.chinese"
+              ref="productContent")
               li(v-for="d in i.items") {{ d }}
+            ul(
+              v-else-if="language.english"
+              ref="productContent")
+              li(v-for="d in i.itemsEng") {{ d }}
 
 </template>
 
@@ -48,7 +68,9 @@ export default {
     ...mapState({
       loadingShow: state => state.loadingShow,
       items: state => state.product.items,
+      itemsEng: state => state.product.itemsEng,
       products: state => state.product.products,
+      language: state => state.language,
     }),
   },
   mounted() {

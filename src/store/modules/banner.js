@@ -12,31 +12,37 @@ export default {
       {
         url: banner0,
         ch: '在全球，<br>樹欣踏足世界尋求精粹<br>在台灣，<br>樹欣做築了完美的準備',
+        chEn: 'Sureseen travels the world in search of essence. <br>In Taiwan, <br>Sureseen has made full preparations.',
         en: 'Make a perfect<br>preparation for you',
       },
       {
         url: banner1,
         ch: '在全球，<br>樹欣踏足世界尋求精粹<br>在台灣，<br>樹欣做築了完美的準備',
+        chEn: 'Sureseen travels the world in search of essence. <br>In Taiwan, <br>Sureseen has made full preparations.',
         en: 'Make a perfect<br>preparation for you',
       },
       {
         url: banner2,
         ch: '在全球，<br>樹欣踏足世界尋求精粹<br>在台灣，<br>樹欣做築了完美的準備',
+        chEn: 'Sureseen travels the world in search of essence. <br>In Taiwan, <br>Sureseen has made full preparations.',
         en: 'Make a perfect<br>preparation for you',
       },
       {
         url: banner3,
         ch: '在全球，<br>樹欣踏足世界尋求精粹<br>在台灣，<br>樹欣做築了完美的準備',
+        chEn: 'Sureseen travels the world in search of essence. <br>In Taiwan, <br>Sureseen has made full preparations.',
         en: 'Make a perfect<br>preparation for you',
       },
       {
         url: banner4,
         ch: '在全球，<br>樹欣踏足世界尋求精粹<br>在台灣，<br>樹欣做築了完美的準備',
+        chEn: 'Sureseen travels the world in search of essence. <br>In Taiwan, <br>Sureseen has made full preparations.',
         en: 'Make a perfect<br>preparation for you',
       },
       {
         url: banner5,
         ch: '在全球，<br>樹欣踏足世界尋求精粹<br>在台灣，<br>樹欣做築了完美的準備',
+        chEn: 'Sureseen travels the world in search of essence. <br>In Taiwan, <br>Sureseen has made full preparations.',
         en: 'Make a perfect<br>preparation for you',
       },
     ],

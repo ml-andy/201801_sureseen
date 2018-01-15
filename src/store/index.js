@@ -11,6 +11,10 @@ export default new Vuex.Store({
   state: {
     loadingShow: true,
     pageYoffset: 0,
+    language: {
+      chinese: true,
+      english: false,
+    },
   },
   mutations: {
     changeStateKeyValue(state, { path, key, value }) {
@@ -21,6 +25,9 @@ export default new Vuex.Store({
       $('body,html').animate({
         scrollTop: $('section').eq(idx).offset().top,
       }, 600);
+    },
+    changeLanguage(state, { key, value }) {
+      state.language[key] = value;
     },
   },
   getters: {

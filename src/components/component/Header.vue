@@ -25,9 +25,13 @@ header
         span.name {{ i.name }}
         span.eng {{ i.eng }}
   .language
-    router-link(to="/") 中文
+    a(
+      href="javascript:;"
+      @click="languageClick('chinese')") 中文
     span /
-    router-link(to="/") EN
+    a(
+      href="javascript:;"
+      @click="languageClick('english')") EN
 
 </template>
 
@@ -45,16 +49,25 @@ export default {
     ...mapState({
       loadingShow: state => state.loadingShow,
       links: state => state.nav.links,
+      language: state => state.language,
     }),
   },
   mounted() {
 
   },
   methods: {
-    ...mapMutations(['changeStateKeyValue', 'changeSection']),
+    ...mapMutations(['changeStateKeyValue', 'changeSection', 'changeLanguage']),
     navLinkClick(idx) {
       this.openNav = false;
       this.changeSection(idx);
+    },
+    languageClick(version) {
+      Object.keys(this.language).forEach((key) => {
+        this.changeLanguage({
+          key,
+          value: key === version,
+        });
+      });
     },
   },
 };

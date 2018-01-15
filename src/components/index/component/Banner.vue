@@ -6,7 +6,12 @@ section.banner.swiper-container
       :class="`photo${idx}`"
     )
       .text
-        .ch(v-html="i.ch")
+        .ch(
+          v-if="language.chinese"
+          v-html="i.ch")
+        .ch(
+          v-if="language.english"
+          v-html="i.chEn")
         .en(v-html="i.en")
       img(:src="i.url")
   .swiper-pagination
@@ -26,15 +31,16 @@ export default {
     ...mapState({
       loadingShow: state => state.loadingShow,
       photos: state => state.banner.photos,
+      language: state => state.language,
     }),
   },
   mounted() {
     this.mySwiper = new Swiper('.swiper-container', {
-      // autoplay: {
-      //   delay: 3000,
-      //   disableOnInteraction: false,
-      // },
-      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      loop: false,
       pagination: {
         el: '.swiper-pagination',
       },
