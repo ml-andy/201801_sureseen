@@ -3,7 +3,7 @@ section.about
   .left-side
     h1 About
     h2(v-if="language.chinese")
-      |進口來自世界的木建材供應商
+      |引進世界各地木建材供應商
       br
       |─  樹欣企業
     h2(v-else-if="language.english")
@@ -17,10 +17,10 @@ section.about
       )
       #player
     p(v-if="language.chinese")
-      |樹欣企業是專業木建材供應商，創立於西元1967年，延攬50年的木建材進口經驗，在台灣木建材材料業界具有領導地位，更是各大企業公司的指定品牌。樹欣橫跨18,219公里，從智利、印尼、馬來西亞、紐西蘭、泰國、中國、俄羅斯、美國等地進口各項品質優良的木建材、裝潢材料，不僅擁有自己數千坪的倉儲，更擁有經驗豐富、高效率的工作團隊。從倉儲備貨、庫存管理一直到包裝運輸，秉持專業服務的精神與科學管理的方式，迅速提供多樣優質的產品，滿足每位客戶的需求。讓各種建材、材料最後以完全不同的姿態呈現於世人，滿足了人們的需求、精采了人們的生活。
+      |樹欣企業是專業木建材供應商，創立於西元1967年，延攬50年的木建材進口經驗，在台灣木建材材料業界具有領導地位。樹欣橫跨18,219公里，從智利、印尼、馬來西亞、紐西蘭、泰國、中國、俄羅斯、美國等地進口各項品質優良的木建材、裝潢材料，不僅擁有自己的倉儲，更擁有經驗豐富、高效率的工作團隊。從倉儲備貨、庫存管理一直到包裝運輸，秉持專業服務的精神與科學管理的方式，迅速提供多樣優質的產品，滿足每位客戶的需求。讓各種建材、材料結合品味與趨勢，融入每個角落、精采了人們的生活。
       br
       br
-      |面對全球市場快速地劇變，樹欣積極檢視市場需求、挑戰市場變化、開發創新與尋找替代產品，持續向前邁進，為台灣木建材產業與世界接軌。50年來，樹欣由小型建材行蛻變為木建材代理進口商，持續贏得建築裝潢、包裝材料、家具等產業客戶的信賴與支持。我們努力實踐「取之於社會、用之於社會、樹立標竿、欣然回饋」的理念，將繼續朝向國際化、精緻化的方向發展，不辜負客戶的信賴與市場的需求，持續扮演台灣木建材產業領導的角色。
+      |面對全球市場快速地劇變，樹欣主動檢視市場需求、挑戰市場變化、積極開發、創新替代的產品，持續向前邁進，為台灣木建材產業與世界接軌、做出貢獻。50年來，樹欣由小型建材行蛻變為木建材代理進口商，持續贏得建築裝潢、包裝材料、家具等產業客戶的信賴與支持，努力實踐「樹立標竿、欣然回饋」的理念，繼續朝向國際化、精緻化的方向發展，持續扮演台灣木建材產業領導的角色。
     p(v-else-if="language.english")
       |Founded in 1967, Sureseen Enterprise is a professional provider of wooden construction materials. With 50 years of experience in importing wooden construction materials, the company holds a leading position in Taiwan’s wooden construction material industry. Sureseen imports a variety of high-quality woodenconstruction and furnishing materials from countries including Chile, Indonesia, Malaysia, New Zealand, Thailand, China, Russia, and the United States, covering 18,219km. The company hasnot only its own storage space, butit also has rich experience and a highly efficient team. From material preparation andinventory management to packaging and transporting, the company upholds a spirit of professional service and a scientific management methodology to provide a variety of top-quality products that satisfy each customer’s demands in a timely manner. Each type of construction and furnishing material is tasteful and follows the latest trends, fitting into every corner of the world and lightning up people’s lives.
       br

@@ -10,9 +10,11 @@ section.product
   .unit
     .left-side A
     .right-side
-      .title
+      .title(v-if="language.chinese")
         .ch 營業項目
         .en Business Project
+      .title(v-else-if="language.english")
+        .ch Business Project
       .items(v-if="language.chinese")
         .item(v-for="i in items") {{ i }}
       .items(v-else-if="language.english")

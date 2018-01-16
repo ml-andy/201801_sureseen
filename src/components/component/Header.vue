@@ -7,7 +7,7 @@ header
     span.top
     span.middle
     span.bottom
-  nav.pc
+  nav.pc(v-if="language.chinese")
     a.link(
       v-for="(i, idx) in links"
       href="javascript:;"
@@ -15,7 +15,17 @@ header
     )
       span.name {{ i.name }}
       span.eng {{ i.eng }}
-  transition(name="fade",mode="out-in")  
+  nav.pc(v-else-if="language.english")
+    a.link(
+      v-for="(i, idx) in links"
+      href="javascript:;"
+      @click="navLinkClick(idx + 1)"
+    )
+      span.name {{ i.eng }}
+  transition(
+    v-if="language.chinese"
+    name="fade"
+    mode="out-in")  
     nav.mb(v-if="openNav ? 'on' : ''")
       a.link(
         v-for="(i, idx) in links"
@@ -24,6 +34,17 @@ header
       )
         span.name {{ i.name }}
         span.eng {{ i.eng }}
+  transition(
+    v-else-if="language.english"
+    name="fade"
+    mode="out-in")  
+    nav.mb(v-if="openNav ? 'on' : ''")
+      a.link(
+        v-for="(i, idx) in links"
+        href="javascript:;"
+        @click="navLinkClick(idx + 1)"
+      )
+        span.name {{ i.eng }}
   .language
     a(
       href="javascript:;"

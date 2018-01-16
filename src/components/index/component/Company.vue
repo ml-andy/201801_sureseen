@@ -47,26 +47,26 @@ section.company
       br
       |contact us
     .store.en
-      |<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14456.140570361167!2d121.451681!3d25.066798!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a89b86e73579%3A0xceec910730164a4a!2sNo.+35%2C+Wuquan+6th+Road%2C+Wugu+District%2C+New+Taipei+City%2C+248!5e0!3m2!1sen!2stw!4v1516028964611" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      |<iframe class="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=新北市五股區五權六路35號4樓&language=en&key=AIzaSyCJmd5VpiUmlg8o-ROm-4rW6DLYKJa5oVA" allowfullscreen></iframe>
       .title Taipei Headquarters
       .addr 4F., No.35, Wuquan 6th Rd., Wugu Dist., New Taipei City 248, Taiwan (R.O.C.)
       .tel TEL：02-22992726 (Rep. Line)
       .fax FAX：02-22992960
       .email EMAIL：wuku37@sureseen.com.tw
     .store.en
-      |<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14456.140570361167!2d121.451681!3d25.066798!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a89b86e73579%3A0xceec910730164a4a!2sNo.+35%2C+Wuquan+6th+Road%2C+Wugu+District%2C+New+Taipei+City%2C+248!5e0!3m2!1sen!2stw!4v1516029001101" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      |<iframe class="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=新北市五股區五權六路35號&language=en&key=AIzaSyCJmd5VpiUmlg8o-ROm-4rW6DLYKJa5oVA" allowfullscreen></iframe>
       .title Wugu Branch
       .addr No.35, Wuquan 6th Rd., Wugu Dist., New Taipei City 248, Taiwan (R.O.C.)
       .tel TEL：02-22992721(Rep. Line)
       .fax FAX：02-22993964
     .store.en
-      |<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14553.89418004006!2d120.613478!3d24.225211!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3469142c12ebb89f%3A0x7eb8ca2d52a33b6a!2sNo.+707%2C+Section+2%2C+Dongda+Road%2C+Daya+District%2C+Taichung+City%2C+428!5e0!3m2!1sen!2stw!4v1516029032355" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      |<iframe class="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=台中市大雅區東大路二段707號&language=en&key=AIzaSyCJmd5VpiUmlg8o-ROm-4rW6DLYKJa5oVA" allowfullscreen></iframe>
       .title Taichung Branch
       .addr No.707, Sec. 2, Dongda Rd., Daya Dist., Taichung City 428, Taiwan (R.O.C.)
       .tel TEL：04-25660476(Rep. Line)
       .fax FAX：04-25660478
     .store.en
-      |<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3683.999340258578!2d120.428352!3d22.579128!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb9b315a0b1ed79ef!2z5qi55qyj5LyB5qWt6IKh5Lu95pyJ6ZmQ5YWs5Y-4!5e0!3m2!1sen!2stw!4v1516029071685" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      |<iframe class="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=高雄市大寮區華中路21號&language=en&key=AIzaSyCJmd5VpiUmlg8o-ROm-4rW6DLYKJa5oVA" allowfullscreen></iframe>
       .title Kaohsiung branch
       .addr No.21, Huazhong Rd., Daliao Dist., Kaohsiung City 831, Taiwan (R.O.C.)
       .tel TEL：07-7875060(Rep. Line)
