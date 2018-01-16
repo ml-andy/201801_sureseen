@@ -22,9 +22,11 @@ section.product
   .unit
     .left-side B
     .right-side
-      .title
+      .title(v-if="language.chinese")
         .ch 產品內容
         .en Product List
+      .title(v-else-if="language.english")
+        .ch Product List
       .produts
         .product(v-for="(i,idx) in products")
           .name(
