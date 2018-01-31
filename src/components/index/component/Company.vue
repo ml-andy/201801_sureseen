@@ -5,13 +5,9 @@ section.company
   h2(v-else-if="language.english") With locations all over Taiwan
   .stores(v-if="language.chinese")
     .welcome
-      |We glad to 
+      |We glad to serve you
       br
-      |serve you,welcome 
-      br
-      |to
-      br
-      |contact us
+      |welcome to contact us
     .store
       |<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.035455792976!2d121.44950691554425!3d25.066787383957003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a89b86e73579%3A0xceec910730164a4a!2zMjQ45paw5YyX5biC5LqU6IKh5Y2A5LqU5qyK5YWt6LevMzXomZ8!5e0!3m2!1szh-TW!2stw!4v1515824877299" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       .title 台北總公司
@@ -39,13 +35,9 @@ section.company
       .fax 傳真：07-7875438
   .stores(v-else-if="language.english")
     .welcome
-      |We glad to 
+      |We glad to serve you
       br
-      |serve you,welcome 
-      br
-      |to
-      br
-      |contact us
+      |welcome to contact us
     .store.en
       |<iframe class="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=新北市五股區五權六路35號4樓&language=en&key=AIzaSyCJmd5VpiUmlg8o-ROm-4rW6DLYKJa5oVA" allowfullscreen></iframe>
       .title Taipei Headquarters
@@ -66,7 +58,7 @@ section.company
       .tel TEL：04-25660476(Rep. Line)
       .fax FAX：04-25660478
     .store.en
-      |<iframe class="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=高雄市大寮區華中路21號&language=en&key=AIzaSyCJmd5VpiUmlg8o-ROm-4rW6DLYKJa5oVA" allowfullscreen></iframe>
+      |<iframe class="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=高雄樹欣企業股份有限公司&language=en&key=AIzaSyCJmd5VpiUmlg8o-ROm-4rW6DLYKJa5oVA" allowfullscreen></iframe>
       .title Kaohsiung branch
       .addr No.21, Huazhong Rd., Daliao Dist., Kaohsiung City 831, Taiwan (R.O.C.)
       .tel TEL：07-7875060(Rep. Line)
@@ -205,12 +197,12 @@ section.company{
     padding-bottom: getVW(250);
 
     .welcome{
-      @include alb(auto,auto);
+      @include alb(#{getVW(384)},auto);
       @include fontvw(30,50,#5c5c5c);
       top: auto;
       letter-spacing: getVW(4);
       right: auto;
-      left: getVW(430);
+      left: getVW(384);
       bottom: getVW(90);
       font-family: 'Myriad Pro';
       z-index: 1;
