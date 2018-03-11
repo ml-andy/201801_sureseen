@@ -18,14 +18,14 @@ footer
     .title 聯絡我們
     ul
       li 新北市五股區五權六路35號4樓
-      li Tel:02-22992726 
+      li Tel:02-22992726
       li Fax:02-22992960
       li Mail:wuku37@sureseen.com.tw
   .unit(v-else-if="language.english")
     .title Contact Us
     ul
       li 4F., No.35, Wuquan 6th Rd., Wugu Dist., New Taipei City 248, Taiwan (R.O.C.)
-      li Tel:02-22992726 
+      li Tel:02-22992726
       li Fax:02-22992960
       li Mail:wuku37@sureseen.com.tw
   .socialbox

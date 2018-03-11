@@ -37,10 +37,11 @@ export default {
   mounted() {
     this.mySwiper = new Swiper('.swiper-container', {
       autoplay: {
-        delay: 3000,
+        delay: 5000,
         disableOnInteraction: false,
       },
-      loop: false,
+      effect: 'fade',
+      speed: 1500,
       pagination: {
         el: '.swiper-pagination',
       },

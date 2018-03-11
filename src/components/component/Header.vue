@@ -25,7 +25,7 @@ header
   transition(
     v-if="language.chinese"
     name="fade"
-    mode="out-in")  
+    mode="out-in")
     nav.mb(v-if="openNav ? 'on' : ''")
       a.link(
         v-for="(i, idx) in links"
@@ -37,7 +37,7 @@ header
   transition(
     v-else-if="language.english"
     name="fade"
-    mode="out-in")  
+    mode="out-in")
     nav.mb(v-if="openNav ? 'on' : ''")
       a.link(
         v-for="(i, idx) in links"

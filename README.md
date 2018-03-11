@@ -1,6 +1,6 @@
-# web
+# website
 
-> customer journey
+> website
 
 ## Build Setup
 

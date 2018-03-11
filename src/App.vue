@@ -71,7 +71,7 @@ html,body{height:100%;}
 input{background:transparent;border:none;}
 input:focus,input:focus{outline: none !important;}
 body{font-family: 'Microsoft JhengHei',Arial;font-size:12px;}
-a{outline: none;hlbr:expression(this.onFocus=this.blur());text-decoration:none;}
+a{outline: none;text-decoration:none;}
 .clear{clear: both;}
 img{vertical-align:top;}
 html{-webkit-text-size-adjust: 100%;}

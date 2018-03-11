@@ -41,7 +41,7 @@ $vph:1080;
   @include flt;
   z-index: 99999;
   background-color: #171a1f;
-  
+
   .loader,
   .loader:before,
   .loader:after {

@@ -59,7 +59,7 @@ section.company
       .fax FAX：04-25660478
     .store.en
       |<iframe class="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=高雄樹欣企業股份有限公司&language=en&key=AIzaSyCJmd5VpiUmlg8o-ROm-4rW6DLYKJa5oVA" allowfullscreen></iframe>
-      .title Kaohsiung branch
+      .title Kaohsiung Branch
       .addr No.21, Huazhong Rd., Daliao Dist., Kaohsiung City 831, Taiwan (R.O.C.)
       .tel TEL：07-7875060(Rep. Line)
       .fax FAX：07-7875438
