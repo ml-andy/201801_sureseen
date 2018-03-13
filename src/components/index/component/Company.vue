@@ -58,7 +58,8 @@ section.company
       .tel TEL：04-25660476(Rep. Line)
       .fax FAX：04-25660478
     .store.en
-      |<iframe class="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=高雄樹欣企業股份有限公司&language=en&key=AIzaSyCJmd5VpiUmlg8o-ROm-4rW6DLYKJa5oVA" allowfullscreen></iframe>
+      a.map(href="https://www.google.com/maps/place/%E6%A8%B9%E6%AC%A3%E4%BC%81%E6%A5%AD%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/@22.579193,120.4277049,19z/data=!4m13!1m7!3m6!1s0x3469142c12ebb89f:0x7eb8ca2d52a33b6a!2zNDI4LCBUYWl3YW4sIFRhaWNodW5nIENpdHksIERheWEgRGlzdHJpY3QsIOadseWkp-i3r-S6jOautTcwN-iZnw!3b1!8m2!3d24.2252112!4d120.6134776!3m4!1s0x0:0xb9b315a0b1ed79ef!8m2!3d22.5791279!4d120.428352?hl=en" target="_blank")
+        img(src="../../../assets/map_kao.jpg")
       .title Kaohsiung Branch
       .addr No.21, Huazhong Rd., Daliao Dist., Kaohsiung City 831, Taiwan (R.O.C.)
       .tel TEL：07-7875060(Rep. Line)
@@ -138,12 +139,17 @@ section.company{
 
       &.en{ min-height: getVW(460); }
 
-      iframe{
+      .map{
         @include r;
         height: getVW(250);
         margin-bottom: getVW(36);
         box-sizing: border-box;
         border: 1px solid #d6d6d6;
+
+        img{
+          max-width: 100%;
+          max-height: 100%;
+        }
       }
 
       .title{
@@ -218,7 +224,7 @@ section.company{
 
       &:nth-child(2n){ margin-right: 0%; }
 
-      iframe{
+      .map{
         @include r;
         height: getVW(350);
         margin-bottom: getVW(36);
