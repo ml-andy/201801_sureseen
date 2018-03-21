@@ -24,6 +24,7 @@ export default {
         open: false,
         height: 0,
         items: [
+          '俄羅斯夾板',
           '印尼夾板',
           '馬來西亞夾板',
           '大陸夾板',
@@ -40,6 +41,7 @@ export default {
           '酚醛膠防水模板',
         ],
         itemsEng: [
+          'Russia Plywood',
           'Indonesian Plywood',
           'Malaysian Plywood',
           'China Plywood',
@@ -98,6 +100,7 @@ export default {
         open: false,
         height: 0,
         items: [
+          '俄羅斯各類木材',
           '紐西蘭松木',
           '南方松防腐材',
           '門斗',
@@ -152,7 +155,7 @@ export default {
           '美耐板',
           '防潮布',
           '鋁箔隔熱棉捲',
-          '音棉捲',
+          '隔音棉捲',
           'PP瓦楞板',
         ],
         itemsEng: [
