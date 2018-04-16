@@ -1,6 +1,6 @@
 <template lang="pug">
 section.company
-  h1 Company base
+  h1 Company Information
   h2(v-if="language.chinese") 全台據點為您服務
   h2(v-else-if="language.english") With locations all over Taiwan
   .stores(v-if="language.chinese")
@@ -40,15 +40,15 @@ section.company
       |welcome to contact us
     .store.en
       |<iframe class="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=新北市五股區五權六路35號4樓&language=en&key=AIzaSyCJmd5VpiUmlg8o-ROm-4rW6DLYKJa5oVA" allowfullscreen></iframe>
-      .title Taipei Headquarters
-      .addr 4F., No.35, Wuquan 6th Rd., Wugu Dist., New Taipei City 248, Taiwan (R.O.C.)
+      .title Taipei Headquarter
+      .addr 4F., No.35, Wuchuan 6th Rd., Wugu Dist., New Taipei City 248, Taiwan (R.O.C.)
       .tel TEL：02-22992726 (Rep. Line)
       .fax FAX：02-22992960
       .email EMAIL：wuku37@sureseen.com.tw
     .store.en
       |<iframe class="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=新北市五股區五權六路35號&language=en&key=AIzaSyCJmd5VpiUmlg8o-ROm-4rW6DLYKJa5oVA" allowfullscreen></iframe>
       .title Wugu Branch
-      .addr No.35, Wuquan 6th Rd., Wugu Dist., New Taipei City 248, Taiwan (R.O.C.)
+      .addr No.35, Wuchuan 6th Rd., Wugu Dist., New Taipei City 248, Taiwan (R.O.C.)
       .tel TEL：02-22992721(Rep. Line)
       .fax FAX：02-22993964
     .store.en

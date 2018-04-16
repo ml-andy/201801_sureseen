@@ -12,7 +12,7 @@ section.product
     .right-side
       .title(v-if="language.chinese")
         .ch 營業項目
-        .en Business Project
+        .en Business Scope
       .title(v-else-if="language.english")
         .ch Business Project
       .items(v-if="language.chinese")

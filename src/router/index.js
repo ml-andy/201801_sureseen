@@ -12,13 +12,13 @@ export default new Router({
       component: Index,
     },
     {
-      path: '/assets',
-      name: 'Assets',
+      path: '/EN',
+      name: 'ENG Index',
       component: Index,
     },
     {
-      path: '/income',
-      name: 'Income',
+      path: '/CH',
+      name: 'CH Index',
       component: Index,
     },
   ],

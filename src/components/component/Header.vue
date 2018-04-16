@@ -46,13 +46,9 @@ header
       )
         span.name {{ i.eng }}
   .language
-    a(
-      href="javascript:;"
-      @click="languageClick('chinese')") 中文
+    router-link(to="/CH") 中文
     span /
-    a(
-      href="javascript:;"
-      @click="languageClick('english')") EN
+    router-link(to="/EN") EN
 
 </template>
 
@@ -77,18 +73,10 @@ export default {
 
   },
   methods: {
-    ...mapMutations(['changeStateKeyValue', 'changeSection', 'changeLanguage']),
+    ...mapMutations(['changeSection']),
     navLinkClick(idx) {
       this.openNav = false;
       this.changeSection(idx);
-    },
-    languageClick(version) {
-      Object.keys(this.language).forEach((key) => {
-        this.changeLanguage({
-          key,
-          value: key === version,
-        });
-      });
     },
   },
 };

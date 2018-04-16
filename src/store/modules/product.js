@@ -10,17 +10,17 @@ export default {
       '特殊訂製品',
     ],
     itemsEng: [
-      'Furnishing material',
-      'Furniture material',
-      'Molding material',
-      'Packaging material',
-      'Outsourced processed material for outsourced processing',
-      'Customized products',
+      'Decoration Materials',
+      'Template Materials',
+      'Customized Preparation Materials',
+      'Furnishing Materials',
+      'Packaging Materials',
+      'Special Order Products',
     ],
     products: [
       {
         name: '夾板',
-        nameEng: 'PLYWOOD',
+        nameEng: 'Plywood',
         open: false,
         height: 0,
         items: [
@@ -46,7 +46,7 @@ export default {
           'Malaysian Plywood',
           'China Plywood',
           'Polyester Plywood',
-          'Fire-Proof Plywood',
+          'Fire-proof Plywood',
           'Flooring',
           'Laser Panel',
           'Bending Plywood',
@@ -60,7 +60,7 @@ export default {
       },
       {
         name: '木心板',
-        nameEng: 'BLACKBOARD',
+        nameEng: 'Blockboard',
         open: false,
         height: 0,
         items: [
@@ -73,12 +73,12 @@ export default {
           'Falcata Blockboard',
           'Meranti Blockboard',
           'Polyester Blockboard',
-          'Fire-ProofBlockboard',
+          'Fire-proof Blockboard',
         ],
       },
       {
         name: '角材',
-        nameEng: 'TIMBER',
+        nameEng: 'Timber',
         open: false,
         height: 0,
         items: [
@@ -89,14 +89,14 @@ export default {
         ],
         itemsEng: [
           'LVL',
-          'Fire-Proof SAWN Timber',
+          'Fire-proof SAWN Timber',
           'Preservation SAWN Timber',
           'WBP(F1) SAWN Timber',
         ],
       },
       {
         name: '木製品',
-        nameEng: 'wooden product',
+        nameEng: 'Wooden Product',
         open: false,
         height: 0,
         items: [
@@ -107,6 +107,7 @@ export default {
           '門片',
         ],
         itemsEng: [
+          'RussiaAll Kinds Of Wood Products',
           'New Zealand Radiata Pine Timber',
           'Southern Pine Preservation Timber',
           'Door Frame',
@@ -115,7 +116,7 @@ export default {
       },
       {
         name: '人造板',
-        nameEng: 'Wood-based panel',
+        nameEng: 'Wood-based Panel',
         open: false,
         height: 0,
         items: [
@@ -131,7 +132,7 @@ export default {
       },
       {
         name: '防火板',
-        nameEng: 'Fire-Proof Board',
+        nameEng: 'Fire-proof Board',
         open: false,
         height: 0,
         items: [
@@ -147,7 +148,7 @@ export default {
       },
       {
         name: '其他材料',
-        nameEng: 'others',
+        nameEng: 'Others',
         open: false,
         height: 0,
         items: [
@@ -161,8 +162,8 @@ export default {
         itemsEng: [
           'PVC Foam Sheet',
           'High Pressure Laminate',
-          'Water-Proof Cloth',
-          'Aluminium-Foil Heat Insulating Cotton Roll',
+          'Water-proof Cloth',
+          'Aluminium-foil Heat Insulating Cotton Roll',
           'Sound-Proof Cotton Roll',
           'PP Corrugated Board',
         ],
