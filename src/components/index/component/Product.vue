@@ -14,7 +14,7 @@ section.product
         .ch 營業項目
         .en Business Scope
       .title(v-else-if="language.english")
-        .ch Business Project
+        .ch Business Scope
       .items(v-if="language.chinese")
         .item(v-for="i in items") {{ i }}
       .items(v-else-if="language.english")
