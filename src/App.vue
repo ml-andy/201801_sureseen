@@ -34,11 +34,7 @@ export default {
       loadingShow: state => state.loadingShow,
       pageYoffset: state => state.pageYoffset,
       language: state => state.language,
-      meta: state => state.meta,
     }),
-  },
-  beforeMount() {
-    this.checkLanguage();
   },
   mounted() {
     $(window).on('scroll', () => {
@@ -49,32 +45,9 @@ export default {
     });
   },
   methods: {
-    ...mapMutations(['changeStateKeyValue', 'changeLanguage']),
+    ...mapMutations(['changeStateKeyValue']),
     goTop() {
       $('body,html').animate({ scrollTop: 0 }, 600);
-    },
-    checkLanguage() {
-      let targetLanguage = 'chinese';
-      switch (this.$route.path) {
-        case '/EN':
-          targetLanguage = 'english';
-          break;
-        default:
-          targetLanguage = 'chinese';
-          break;
-      }
-
-      Object.keys(this.language).forEach((key) => {
-        this.changeLanguage({
-          key,
-          value: key === targetLanguage,
-        });
-      });
-    },
-  },
-  watch: {
-    $route() {
-      this.checkLanguage();
     },
   },
   components: {
