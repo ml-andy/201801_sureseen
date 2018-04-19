@@ -3,7 +3,6 @@ import Vuex from 'vuex';
 import Nav from '@/store/modules/nav';
 import Banner from '@/store/modules/banner';
 import Product from '@/store/modules/product';
-import Meta from '@/store/modules/meta';
 import $ from 'jquery';
 
 Vue.use(Vuex);
@@ -13,8 +12,8 @@ export default new Vuex.Store({
     loadingShow: true,
     pageYoffset: 0,
     language: {
-      chinese: true,
-      english: false,
+      chinese: false,
+      english: true,
     },
   },
   mutations: {
@@ -48,6 +47,5 @@ export default new Vuex.Store({
     nav: Nav,
     banner: Banner,
     product: Product,
-    meta: Meta,
   },
 });

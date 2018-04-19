@@ -46,9 +46,9 @@ header
       )
         span.name {{ i.eng }}
   .language
-    router-link(to="/CH") 中文
+    a(href="../CH/") 中文
     span /
-    router-link(to="/EN") EN
+    a(href="../EN/") EN
 
 </template>
 
