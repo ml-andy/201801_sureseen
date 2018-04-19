@@ -3,3 +3,8 @@
 > [中文](https://ml-andy.github.io/201801_sureseen/dist/CH/)
 
 > [EN](https://ml-andy.github.io/201801_sureseen/dist/EN/)
+
+## 原始檔在其他分支
+> 中文: devlop/CH
+
+> EN: devlop/EN
