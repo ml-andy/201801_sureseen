@@ -147,6 +147,20 @@ export default {
         ],
       },
       {
+        name: '沉香木',
+        nameEng: 'Agarwood',
+        open: false,
+        height: 0,
+        items: [
+          '沉香藝術品',
+          '沉香粉',
+        ],
+        itemsEng: [
+          'Agarwood Artwork',
+          'Agarwood Powder',
+        ],
+      },
+      {
         name: '其他材料',
         nameEng: 'Others',
         open: false,

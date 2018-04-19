@@ -34,6 +34,7 @@ export default {
       loadingShow: state => state.loadingShow,
       pageYoffset: state => state.pageYoffset,
       language: state => state.language,
+      meta: state => state.meta,
     }),
   },
   beforeMount() {
