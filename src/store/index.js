@@ -12,8 +12,8 @@ export default new Vuex.Store({
     loadingShow: true,
     pageYoffset: 0,
     language: {
-      chinese: true,
-      english: false,
+      chinese: false,
+      english: true,
     },
   },
   mutations: {
