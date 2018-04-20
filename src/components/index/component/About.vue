@@ -160,12 +160,19 @@ export default {
   methods: {
     ...mapMutations(['changeStateKeyValue']),
     creatVideo() {
+      let videoId = this.videoId.chinese;
+      Object.keys(this.language).forEach((key) => {
+        if (this.language[key]) {
+          videoId = this.videoId[key];
+        }
+      });
+
       this.mainPlayer = new YT.Player(
         'player',
         {
           height: '100%',
           width: '100%',
-          videoId: this.videoId.chinese,
+          videoId,
           playerVars: {
             controls: 0,
             autoplay: 0,
@@ -188,19 +195,6 @@ export default {
     vdStateChange(event) {
       if (event.data !== 1) this.showVdCover = true;
       else this.showVdCover = false;
-    },
-  },
-  watch: {
-    language: {
-      handler(e) {
-        Object.keys(e).forEach((key) => {
-          if (this.language[key]) {
-            this.mainPlayer.loadVideoById(this.videoId[key]);
-            this.mainPlayer.stopVideo();
-          }
-        });
-      },
-      deep: true,
     },
   },
 };
