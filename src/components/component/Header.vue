@@ -46,9 +46,9 @@ header
       )
         span.name {{ i.eng }}
   .language
-    a(href="../CH/") 中文
+    a(href="../ch/") 中文
     span /
-    a(href="../EN/") EN
+    a(href="../en/") EN
 
 </template>
 
