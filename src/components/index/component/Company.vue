@@ -35,7 +35,7 @@ section.company
       .fax 傳真：07-7875438
   .stores(v-else-if="language.english")
     .welcome
-      |We glad to serve you
+      |We are glad to serve you
       br
       |welcome to contact us
     .store.en
@@ -125,7 +125,7 @@ section.company{
       @include art(auto,auto);
       @include fontvw(16,36,#5c5c5c);
       letter-spacing: getVW(4);
-      right: getVW(90);
+      right: getVW(60);
       font-family: 'Myriad Pro';
       z-index: 1;
     }
@@ -203,12 +203,12 @@ section.company{
     padding-bottom: getVW(250);
 
     .welcome{
-      @include alb(#{getVW(384)},auto);
+      @include alb(#{getVW(430)},auto);
       @include fontvw(30,50,#5c5c5c);
       top: auto;
       letter-spacing: getVW(4);
       right: auto;
-      left: getVW(384);
+      left: getVW(330);
       bottom: getVW(90);
       font-family: 'Myriad Pro';
       z-index: 1;
