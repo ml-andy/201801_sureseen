@@ -19,7 +19,7 @@ export default {
       },
       {
         name: '公司據點',
-        eng: 'Company Base',
+        eng: 'Company Information',
         section: 3,
       },
     ],

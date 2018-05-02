@@ -5,7 +5,7 @@ section.company
   h2(v-else-if="language.english") With locations all over Taiwan
   .stores(v-if="language.chinese")
     .welcome
-      |We glad to serve you
+      |We are glad to serve you
       br
       |welcome to contact us
     .store
