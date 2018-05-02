@@ -5,34 +5,34 @@ section.company
   h2(v-else-if="language.english") With locations all over Taiwan
   .stores(v-if="language.chinese")
     .welcome
-      |We glad to serve you
+      |We are glad to serve you
       br
       |welcome to contact us
     .store
       |<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.035455792976!2d121.44950691554425!3d25.066787383957003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a89b86e73579%3A0xceec910730164a4a!2zMjQ45paw5YyX5biC5LqU6IKh5Y2A5LqU5qyK5YWt6LevMzXomZ8!5e0!3m2!1szh-TW!2stw!4v1515824877299" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       .title 台北總公司
       .addr 新北市五股區五權六路35號4樓
-      .tel 電話：02-22992726 (代表號)
-      .fax 傳真：02-22992960
+      .tel 電話：+886-2-22992726 (代表號)
+      .fax 傳真：+886-2-22992960
       .email 服務信箱：wuku37@sureseen.com.tw
     .store
       |<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.035455792976!2d121.44950691554425!3d25.066787383957003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a89b86e73579%3A0xceec910730164a4a!2zMjQ45paw5YyX5biC5LqU6IKh5Y2A5LqU5qyK5YWt6LevMzXomZ8!5e0!3m2!1szh-TW!2stw!4v1515825058778" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       .title 五股分公司
       .addr 新北市五股區五權六路35號
-      .tel 電話：02-22992721(代表號)
-      .fax 傳真：02-22993964
+      .tel 電話：+886-2-22992721(代表號)
+      .fax 傳真：+886-2-22993964
     .store
       |<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3638.4735397423487!2d120.61128891553143!3d24.225211184357363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3469142c12ebb89f%3A0x7eb8ca2d52a33b6a!2zNDI46Ie65Lit5biC5aSn6ZuF5Y2A5p2x5aSnIOi3rzcwN-iZnw!5e0!3m2!1szh-TW!2stw!4v1515825170840" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       .title 台中分公司
       .addr 台中市大雅區東大路二段707號
-      .tel 電話：04-25660476(代表號)
-      .fax 傳真：04-25660478
+      .tel 電話：+886-4-25660476(代表號)
+      .fax 傳真：+886-4-25660478
     .store
       |<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1095.2607690275072!2d120.42751545382714!3d22.57897549588028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e1c06a32d3cbd%3A0xb9b315a0b1ed79ef!2z5qi55qyj5LyB5qWt6IKh5Lu95pyJ6ZmQ5YWs5Y-4!5e0!3m2!1szh-TW!2stw!4v1516020241066" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       .title 高雄分公司
       .addr 高雄市大寮區華中路21號
-      .tel 電話：07-7875060(代表號)
-      .fax 傳真：07-7875438
+      .tel 電話：+886-7-7875060(代表號)
+      .fax 傳真：+886-7-7875438
   .stores(v-else-if="language.english")
     .welcome
       |We glad to serve you
@@ -42,28 +42,28 @@ section.company
       |<iframe class="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=新北市五股區五權六路35號4樓&language=en&key=AIzaSyCJmd5VpiUmlg8o-ROm-4rW6DLYKJa5oVA" allowfullscreen></iframe>
       .title Taipei Headquarter
       .addr 4F., No.35, Wuchuan 6th Rd., Wugu Dist., New Taipei City 248, Taiwan (R.O.C.)
-      .tel TEL：02-22992726 (Rep. Line)
-      .fax FAX：02-22992960
+      .tel TEL：+886-2-22992726 (Rep. Line)
+      .fax FAX：+886-2-22992960
       .email EMAIL：wuku37@sureseen.com.tw
     .store.en
       |<iframe class="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=新北市五股區五權六路35號&language=en&key=AIzaSyCJmd5VpiUmlg8o-ROm-4rW6DLYKJa5oVA" allowfullscreen></iframe>
       .title Wugu Branch
       .addr No.35, Wuchuan 6th Rd., Wugu Dist., New Taipei City 248, Taiwan (R.O.C.)
-      .tel TEL：02-22992721(Rep. Line)
-      .fax FAX：02-22993964
+      .tel TEL：+886-2-22992721(Rep. Line)
+      .fax FAX：+886-2-22993964
     .store.en
       |<iframe class="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=台中市大雅區東大路二段707號&language=en&key=AIzaSyCJmd5VpiUmlg8o-ROm-4rW6DLYKJa5oVA" allowfullscreen></iframe>
       .title Taichung Branch
       .addr No.707, Sec. 2, Dongda Rd., Daya Dist., Taichung City 428, Taiwan (R.O.C.)
-      .tel TEL：04-25660476(Rep. Line)
-      .fax FAX：04-25660478
+      .tel TEL：+886-4-25660476(Rep. Line)
+      .fax FAX：+886-4-25660478
     .store.en
       a.map(href="https://www.google.com/maps/place/%E6%A8%B9%E6%AC%A3%E4%BC%81%E6%A5%AD%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/@22.579193,120.4277049,19z/data=!4m13!1m7!3m6!1s0x3469142c12ebb89f:0x7eb8ca2d52a33b6a!2zNDI4LCBUYWl3YW4sIFRhaWNodW5nIENpdHksIERheWEgRGlzdHJpY3QsIOadseWkp-i3r-S6jOautTcwN-iZnw!3b1!8m2!3d24.2252112!4d120.6134776!3m4!1s0x0:0xb9b315a0b1ed79ef!8m2!3d22.5791279!4d120.428352?hl=en" target="_blank")
         img(src="../../../assets/map_kao.jpg")
       .title Kaohsiung Branch
       .addr No.21, Huazhong Rd., Daliao Dist., Kaohsiung City 831, Taiwan (R.O.C.)
-      .tel TEL：07-7875060(Rep. Line)
-      .fax FAX：07-7875438
+      .tel TEL：+886-7-7875060(Rep. Line)
+      .fax FAX：+886-7-7875438
 
       
 </template>

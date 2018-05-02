@@ -37,7 +37,7 @@ export default {
   mounted() {
     this.mySwiper = new Swiper('.swiper-container', {
       autoplay: {
-        delay: 2500,
+        delay: 2000,
         disableOnInteraction: false,
       },
       effect: 'fade',

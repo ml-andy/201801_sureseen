@@ -18,21 +18,21 @@ footer
     .title 聯絡我們
     ul
       li 新北市五股區五權六路35號4樓
-      li Tel:02-22992726
-      li Fax:02-22992960
+      li Tel:+886-2-22992726
+      li Fax:+886-2-22992960
       li Mail:wuku37@sureseen.com.tw
   .unit(v-else-if="language.english")
     .title Contact Us
     ul
       li 4F., No.35, Wuquan 6th Rd., Wugu Dist., New Taipei City 248, Taiwan (R.O.C.)
-      li Tel:02-22992726
-      li Fax:02-22992960
+      li Tel:+886-2-22992726
+      li Fax:+886-2-22992960
       li Mail:wuku37@sureseen.com.tw
   .socialbox
     span.twitter(@click="share('twitter')")
     span.fb(@click="share('fb')")
     span.google(@click="share('google')")
-    //- span.ig(@click="share('ig')")
+    span.line(@click="share('line')")
   .copyright Design by 參柒設計
 
 </template>
@@ -82,8 +82,8 @@ export default {
         case 'google':
           window.open(`https://plus.google.com/share?app=110&url=${encodeURIComponent(location.href)}`, '', 'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0');
           break;
-        case 'ig':
-          console.log(type);
+        case 'line':
+          window.open(`https://lineit.line.me/share/ui?url=${encodeURIComponent(location.href)}`, '', 'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0');
           break;
         default:
           window.open(`http://www.facebook.com/sharer.php?u=${encodeURIComponent(location.href)}`, '', 'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0');
@@ -159,6 +159,7 @@ footer{
       &.fb{ background-image: url(../../assets/icon_share1.png); }
       &.google{ background-image: url(../../assets/icon_share2.png); }
       &.ig{ background-image: url(../../assets/icon_share3.png); }
+      &.line{ background-image: url(../../assets/icon_share4.png); }
     }
   }
 
@@ -239,6 +240,7 @@ footer{
       &.fb{ background-image: url(../../assets/icon_share1.png); }
       &.google{ background-image: url(../../assets/icon_share2.png); }
       &.ig{ background-image: url(../../assets/icon_share3.png); }
+      &.line{ background-image: url(../../assets/icon_share4.png); }
     }
   }
 

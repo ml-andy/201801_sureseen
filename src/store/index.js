@@ -22,9 +22,9 @@ export default new Vuex.Store({
       else state[key] = value;
     },
     changeSection(state, idx) {
-      $('body,html').animate({
-        scrollTop: $('section').eq(idx).offset().top,
-      }, 600);
+      let scrollTop = $('section').eq(idx).offset().top;
+      if(window.innerWidth <= 1199) scrollTop = scrollTop - $('header').height();
+      $('body,html').animate({ scrollTop }, 600);
     },
     changeLanguage(state, { key, value }) {
       state.language[key] = value;
