@@ -107,7 +107,7 @@ export default {
           '門片',
         ],
         itemsEng: [
-          'RussiaAll Kinds Of Wood Products',
+          'Russia All Kinds Of Wood Products',
           'New Zealand Radiata Pine Timber',
           'Southern Pine Preservation Timber',
           'Door Frame',

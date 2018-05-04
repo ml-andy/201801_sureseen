@@ -24,7 +24,7 @@ footer
   .unit(v-else-if="language.english")
     .title Contact Us
     ul
-      li 4F., No.35, Wuquan 6th Rd., Wugu Dist., New Taipei City 248, Taiwan (R.O.C.)
+      li 4F., No.35, Wuchuan 6th Rd., Wugu Dist., New Taipei City 248, Taiwan (R.O.C.)
       li Tel:+886-2-22992726
       li Fax:+886-2-22992960
       li Mail:wuku37@sureseen.com.tw
